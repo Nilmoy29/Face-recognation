@@ -1,7 +1,8 @@
 import cv2
+import os
 
 #load Camera
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     #To get Frame after Frame 
